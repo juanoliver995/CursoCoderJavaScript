@@ -1,0 +1,414 @@
+:root {
+    --fuentetitulo:'Fredoka One', cursive;
+    --fuenteparrafo: 'Actor', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a li {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    list-style: none;
+}
+.alert{
+    display: block;
+    padding: 12px 20px;
+    background: #f8d7da;
+    color: red;
+    margin-bottom: 10px;
+    border: 1px solid #f5c6cb;
+}
+a{
+    text-decoration: none;
+}
+
+.logo{
+    width: 40px;
+}
+
+.conteiner {
+    width: 100%;
+    margin: auto;
+    background-color: seagreen;
+}
+
+
+.navMain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+    padding-left: 10px;
+    font-family: var(--fuentetitulo);
+    
+}
+
+.navMain ul {
+    display: flex;
+}
+
+.navMain ul li {
+    padding: 10px;
+    font-size: 12px;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    
+}
+.carritoIcon {
+    width: 25px;
+    padding-top: 10px;
+}
+.contactIcon {
+    width: 20px;
+    padding-top: 10px;
+}
+/* Main section */
+
+.conteinerProduct {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding-left: 15px;
+
+}
+
+.boxProduct {
+    display: grid;
+    justify-content: center;
+    width: 250px;
+    box-shadow: 0px 10px 20px rgba(128, 128, 128, .25);
+    border-radius: 15px;
+    margin-top: 20px;
+
+}
+
+.productTittle {
+    padding: 20px;
+    text-align: center;
+    font-family: var(--fuentetitulo);
+    font-size: 17px;
+}
+.conteinerBtn { 
+    margin: 10px;
+    text-align: center;
+    font-family: var(--fuentetitulo);
+    text-align: center;
+}
+.conteinerInfo {
+    margin: 10px;
+    font-family: var(--fuenteparrafo);
+}
+.conteinerInfo li {
+    text-align: left;
+}
+.btnCompra {
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    margin: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.btnCompra:hover {
+    background-color: seagreen;
+    cursor: pointer;
+}
+.precioProducto {
+    font-size: 20px;
+    font-family: var(--fuentetitulo);
+    text-align: center;
+}
+
+
+/* footer */
+
+.conteinerFooter {
+    background-color: seagreen;
+    display: grid;
+    margin-top: 30px;
+}
+
+#list {
+    text-align: center;
+    margin-top: 15px;
+    font-family: var(--fuenteparrafo);
+    
+}
+.tittleProducts {
+    font-family: var(--fuentetitulo);
+    text-align: center;
+}
+
+/* Searh */
+.contenedorFilter{
+    display: grid;
+    justify-content: center;
+    margin-top: 10px;
+}
+.cardFilter{
+    outline: none;
+    border: 5px solid seagreen;
+    font-family: var(--fuenteparrafo);
+    font-weight: 600;
+}
+ .filtro {
+     display: none;
+}
+
+
+ /* Carrito de Compras */
+
+.contenedorCarrito {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);    
+    grid-gap: 10px;
+    font-size: 20px;
+    font-family: var(--fuenteparrafo);
+    margin-top: 20px;
+    text-align: center;
+}
+.carritoTitulo {
+    text-align: center;
+    padding: 30px 0 10px 0;
+    font-family: var(--fuentetitulo);
+    font-size: 30px;
+}
+
+.conteinerCarrito {
+    font-family: var(--fuenteparrafo);
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);    
+    grid-gap: 10px;
+    text-align: center;
+
+}
+.precioCarrito {
+    padding-right: 10px;
+    font-family: var(--fuentetitulo);
+    
+}
+.inputCarrito {
+    width: 60px;
+}
+
+.contenedorTotal {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-around;
+    padding-top: 20px;
+    background-color: seagreen;
+    padding-bottom: 20px;
+    margin-top: 25px;
+
+}
+.total {
+    font-family: var(--fuentetitulo);
+}
+.precioTotal {
+    font-family: var(--fuentetitulo);
+}
+
+.btnCarrito {
+    text-align: center;
+    font-family: var(--fuentetitulo);
+    border-radius: 10px;
+    padding: 2px;
+    border-style: none;
+    border: 2px solid #000;
+}
+
+.btnCarrito:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.botonDelete {
+    background-color: red;
+    border-style: none;
+    border: 1px solid #000;
+    padding: 1px;
+    cursor: pointer;
+}
+.carrito {
+    margin: 15px;
+    text-align: center;
+}
+.totalcarrito{
+    background-color: seagreen;
+    padding: 5px;
+}
+
+/* contacto */
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    background-color: seagreen;
+    padding: 40px;
+    margin: 20px auto;
+    box-shadow: 0px 10px 20px rgba(128, 128, 128, .25);
+    border-radius: 5px;
+}
+
+.contenedor h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: var(--fuentetitulo);
+    margin-bottom: 25px;
+}
+
+.contenido {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contenido .info,
+.contenido .formulario {
+    width: 50%;
+}
+
+
+/* estilos info */
+i{
+    margin: 5px;
+}
+.info .col {
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 15px;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+
+.info .col .i {
+    color: white;
+    margin-right: 10px;
+
+}
+
+.info .col p{
+    color: white;
+
+}
+
+.info .redes {
+    width: 100%;
+    overflow: hidden;
+    padding-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.info .redes a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: seagreen;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 50%;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, .4);
+    text-decoration: none;
+}
+
+.info .redes a:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, .4);
+    background: #000;
+}
+
+/* estilos formulario */
+
+.formulario {
+    padding-left: 10px;
+}
+
+.formulario input[type='text'],
+.formulario textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px 20px;
+    border: 1px solid black;
+    color: black;
+    font-family: var(--fuenteparrafo);
+    outline: 0;
+}
+
+.formulario textarea{
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 150px;
+    max-height: 200px;
+}
+
+.formulario button{
+    padding: 12px 30px;
+    border: transparent;
+    background: white;
+    color: seagreen;
+    cursor: pointer;
+    float: right;
+
+}
+
+.none {
+    display: none;
+}
+
+.contactoLoader{
+    text-align: center;
+}  
+
+.error{
+    background-color: #BC1010;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    margin-left: 16px;
+    margin-top: 6px;
+    position: absolute;
+}
+.error:before{
+    content: '';
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #BC1010;
+    border-left: 8px solid transparent;
+    left: -16px;
+    position: absolute;
+    top: 5px;
+}
+
+.finalizar {
+    margin: 10px;
+}
+
+.contact__secction__item {
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+}
+.btn-formulario {
+    background-color: seagreen;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: var(--fuentetitulo);
+}

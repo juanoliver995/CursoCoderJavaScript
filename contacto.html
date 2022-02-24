@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Actor&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/aa1967752c.js" crossorigin="anonymous"></script>
+    <title>Contacto</title>
+
+</head>
+
+<body>
+    <div class="conteiner">
+        <nav class="navMain">
+            <a href="index.html"><img src="img/pp.png" alt="" class="logo"></a>
+            <ul class="navMenu">
+                <li><img src="/img/shopping-cart_icon-icons.com_72552.svg" alt="" class="carritoIcon"></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <div class="contenedor">
+            <h1>Formulario de Contacto</h1>
+            <div class="contenido">
+                <div class="info">
+                    <div class="col">
+                        <i class="icono fas fa-map-marker-alt"></i>
+                        <P>Roca 366 Gualeguaychu, Entre Rios, Argentina</P>
+                    </div>
+                    <div class="col">
+                        <i class="icono fas fa-envelope"></i>
+                        <P>mixnature@gmail.com</P>
+                    </div>
+                    <div class="col">
+                        <i class="icono fas fa-phone"></i>
+                        <P>+54 3446-660154</P>
+                    </div>
+                    <div class="redes">
+                        <a href="https://www.facebook.com/MixNature"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/mixnature.frutosecos/?hl=es-la"> <i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form id="form" class="formulario" action="https://formsubmit.co/juanoliver995@gmail.com" method="POST">
+                    <input type="text" name="nombre" placeholder="Nombre" id="nombre" class="nombre">
+                    <input type="text" name="correo" placeholder="Correo Electronico" id="correo" class="correo">
+                    <input type="text" name="asunto" placeholder="Asunto" id="asunto" class="asunto">
+                    <textarea name="mensaje" id="mensaje" placeholder="Mensaje" class="mensaje"></textarea>
+                    <button type="submit" class="botonSubmit">Enviar</button>
+                    <div class="contactoLoader none">
+                        <img src="/img/oval.svg" alt="cargando">
+                    </div>
+                    <div class="contactoRespuesta none">
+                        <p>Los datos han sido enviados</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/contacto.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+[
+    {
+        "id": 1,
+        "name": "Mix Tradicional",
+        "precio": 670,
+        "img": "/img/tradicional.png"
+    },
+    {
+        "id": 2,
+        "name": "Mix Sport",
+        "precio": 790,
+        "img": "/img/sport.png"
+    },
+    {
+        "id": 3,
+        "name": "Mix Secos Arandanos",
+        "precio": 980,
+        "img": "/img/secos.png"
+    },
+    {
+        "id": 4,
+        "name": "Mix Tropical",
+        "precio": 940,
+        "img": "/img/tropical.png"
+    },
+    {
+        "id": 5,
+        "name": "Mix Europeo",
+        "precio": 980,
+        "img": "/img/europeo.png"
+    },
+    {
+        "id": 6,
+        "name": "Mix Secos Premium",
+        "precio": 1340,
+        "img": "/img/secos premium.png"
+    },
+    {
+        "id": 7,
+        "name": "Granola y Almendras",
+        "precio": 450,
+        "img": "/img/granola.png"
+    },
+    {
+        "id": 8,
+        "name": "Almohaditas Rellenas",
+        "tipo": "snack",
+        "precio": 450,
+        "img": "/img/DSC_0220.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Copo de Maiz",
+        "precio": 250,
+        "img": "/img/DSC_0240.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Mix Semillas",
+        "precio": 320,
+        "img": "/img/DSC_0250.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Harina Integral",
+        "precio": 100,
+        "img": "/img/DSC_0193.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Avena Instantanea",
+        "precio": 170,
+        "img": "/img/AVENA INSTANTANEA.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Aceite de Coco",
+        "precio": 450,
+        "img": "/img/ACEITE DE COCO.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Pasta de Mani",
+        "precio": 200,
+        "img": "/img/DSC_0254.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Almendras",
+        "precio": 750
+    },
+    {
+        "id": 16,
+        "name": "Nuez Mariposa",
+        "precio": 670,
+        "img": "/img/DSC_0243.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Mani sin Sal",
+        "precio": 150,
+        "img": "/img/DSC_0246.jpg"
+    }
+]
